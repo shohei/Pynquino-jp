@@ -1,1 +1,1 @@
-Search.setIndex({docnames:["index"],envversion:53,filenames:["index.md"],objects:{},objnames:{},objtypes:{},terms:{genindex:0,index:[],modindex:0,modul:[],page:[],search:0},titles:["Welcome to pynquino\u2019s documentation!"],titleterms:{document:0,indic:0,pynquino:0,tabl:0,welcom:0}})
+Search.setIndex({docnames:["index"],envversion:53,filenames:["index.md"],objects:{},objnames:{},objtypes:{},terms:{genindex:0,index:[],modindex:0,modul:[],page:[],search:0},titles:["Welcome to Pynquino\u2019s documentation!"],titleterms:{document:0,indic:0,pynquino:0,tabl:0,welcom:0}})

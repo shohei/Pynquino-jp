@@ -1,4 +1,4 @@
-Welcome to pynquino's documentation!
+Welcome to Pynquino's documentation!
 ====================================
 
 Indices and tables
