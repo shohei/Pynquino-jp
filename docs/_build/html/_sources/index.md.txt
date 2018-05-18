@@ -6,5 +6,6 @@ Indices and tables
 
 -   genindex
 -   modindex
+-   test 
 -   search
 
