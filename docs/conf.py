@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'pynquino'
+project = 'Pynquino'
 copyright = '2018, Shohei Aoki'
 author = 'Shohei Aoki'
 
