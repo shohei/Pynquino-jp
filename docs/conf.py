@@ -159,9 +159,9 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-extensions = [
-    'nbsphinx',
-    'sphinx.ext.mathjax',
-]
-exclude_patterns = ['_build', '**.ipynb_checkpoints']
-
+# extensions = [
+#     'nbsphinx',
+#     'sphinx.ext.mathjax',
+# ]
+# exclude_patterns = ['_build', '**.ipynb_checkpoints']
+ 
