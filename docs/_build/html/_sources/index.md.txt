@@ -1,0 +1,10 @@
+Welcome to pynquino's documentation!
+====================================
+
+Indices and tables
+==================
+
+-   genindex
+-   modindex
+-   search
+
