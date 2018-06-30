@@ -8,11 +8,9 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to Pynquino’s documentation! &mdash; Pynquino  documentation</title>
+  <title>Pynquino &mdash; Pynquino  documentation</title>
   
 
-  
-  
   
   
 
@@ -32,10 +30,8 @@
   
 
   
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Pynquino  documentation" href="#"/> 
+    <link rel="top" title="Pynquino  documentation" href="#"/>
+        <link rel="next" title="Getting Started" href="getting_started.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -44,7 +40,6 @@
 
 <body class="wy-body-for-nav" role="document">
 
-   
   <div class="wy-grid-for-nav">
 
     
@@ -81,15 +76,14 @@
           
             
             
-              
-            
-            
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to Pynquino’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blockly.html">Blockly Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developers.html">Developers Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="showcases.html">Showcases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development_plan.html">Development Plan</a></li>
 </ul>
-</div>
+
             
           
         </div>
@@ -100,10 +94,8 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Pynquino</a>
-        
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Pynquino</a>
       </nav>
 
 
@@ -112,65 +104,71 @@
         <div class="rst-content">
           
 
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
-
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="#">Docs</a> &raquo;</li>
-        
-      <li>Welcome to Pynquino’s documentation!</li>
-    
-    
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Pynquino</li>
       <li class="wy-breadcrumbs-aside">
         
-            
-            <a href="_sources/index.md.txt" rel="nofollow"> View page source</a>
+          
+            <a href="_sources/index.txt" rel="nofollow"> View page source</a>
           
         
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-pynquino-s-documentation">
-<span id="welcome-to-pynquino-s-documentation"></span><h1>Welcome to Pynquino’s documentation!<a class="headerlink" href="#welcome-to-pynquino-s-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="pynquino">
+<h1>Pynquino<a class="headerlink" href="#pynquino" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
 </div>
-<div class="section" id="indices-and-tables">
-<span id="indices-and-tables"></span><h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li>genindex</li>
-<li>modindex</li>
-<li>test</li>
-<li>search</li>
-</ul>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="synoposis">
+<h3>Synoposis<a class="headerlink" href="#synoposis" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>PYNQ project integrated Linux operating system, micro controller for real time control, and fast computation for FPGA</li>
+<li>PYNQ does not provide Arduino integration in terms of Software</li>
+<li>PYNQ enables users to develop with Python and Jupyter notebook , however, still a challenge for non-programmer to customize the code</li>
+</ol>
+</div>
+<div class="section" id="objective">
+<h3>Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Integrate different types of robot and sensors</li>
+<li>Accelerate computer vision and machine learning</li>
+</ol>
+</div>
+<div class="section" id="content">
+<h3>Content<a class="headerlink" href="#content" title="Permalink to this headline">¶</a></h3>
+<p>Pynquino projects provides following softwares:</p>
+<ol class="arabic simple">
+<li>Pynquino compiler for porting Arduino code to PYNQ-Microblaze automatically.</li>
+<li>Blockly editor as wrapper environment of Jupyter notebook for easy programming.</li>
+</ol>
+</div>
+</div>
 </div>
 
 
-           </div>
-           <div class="articleComments">
-            
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="getting_started.html" class="btn btn-neutral float-right" title="Getting Started" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>
@@ -202,8 +200,7 @@
             VERSION:'',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
+            HAS_SOURCE:  true
         };
     </script>
       <script type="text/javascript" src="_static/jquery.js"></script>

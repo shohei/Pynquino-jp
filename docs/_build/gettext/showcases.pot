@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Shohei Aoki
+# This file is distributed under the same license as the Pynquino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pynquino \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-30 22:51+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../showcases.md:0
+msgid "Showcases"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "3D printer"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "Sprinter"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "Robotic arm"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "UR5"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "Mobile robot"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "Kobuki"
+msgstr ""
+
+#: ../../showcases.md:0
+msgid "RPi mouse"
+msgstr ""
+

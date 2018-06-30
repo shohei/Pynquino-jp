@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Shohei Aoki
+# This file is distributed under the same license as the Pynquino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pynquino \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-30 22:51+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:8
+msgid "Pynquino"
+msgstr ""
+
+#: ../../index.rst:22
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:26
+msgid "Synoposis"
+msgstr ""
+
+#: ../../index.rst:28
+msgid "PYNQ project integrated Linux operating system, micro controller for real time control, and fast computation for FPGA"
+msgstr ""
+
+#: ../../index.rst:29
+msgid "PYNQ does not provide Arduino integration in terms of Software"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "PYNQ enables users to develop with Python and Jupyter notebook , however, still a challenge for non-programmer to customize the code"
+msgstr ""
+
+#: ../../index.rst:34
+msgid "Objective"
+msgstr ""
+
+#: ../../index.rst:35
+msgid "Integrate different types of robot and sensors"
+msgstr ""
+
+#: ../../index.rst:36
+msgid "Accelerate computer vision and machine learning"
+msgstr ""
+
+#: ../../index.rst:40
+msgid "Content"
+msgstr ""
+
+#: ../../index.rst:41
+msgid "Pynquino projects provides following softwares:"
+msgstr ""
+
+#: ../../index.rst:43
+msgid "Pynquino compiler for porting Arduino code to PYNQ-Microblaze automatically."
+msgstr ""
+
+#: ../../index.rst:44
+msgid "Blockly editor as wrapper environment of Jupyter notebook for easy programming."
+msgstr ""
+
