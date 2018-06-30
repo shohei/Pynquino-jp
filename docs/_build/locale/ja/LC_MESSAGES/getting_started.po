@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pynquino \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 22:33+0900\n"
+"POT-Creation-Date: 2018-06-30 23:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,35 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../showcases.md
-msgid "Showcases"
+#: ../../getting_started.md
+msgid "Getting Started"
 msgstr ""
 
-#: ../../showcases.md
-msgid "3D printer"
+#: ../../getting_started.md
+msgid "Hardware"
 msgstr ""
 
-#: ../../showcases.md
-msgid "Sprinter"
+#: ../../getting_started.md
+msgid "PYNQ-Z1"
 msgstr ""
 
-#: ../../showcases.md
-msgid "Robotic arm"
+#: ../../getting_started.md
+msgid "Software"
 msgstr ""
 
-#: ../../showcases.md
-msgid "UR5"
+#: ../../getting_started.md
+msgid "Jupyter notebook"
 msgstr ""
 
-#: ../../showcases.md
-msgid "Mobile robot"
+#: ../../getting_started.md
+msgid "Metakernel"
 msgstr ""
 
-#: ../../showcases.md
-msgid "Kobuki"
-msgstr ""
-
-#: ../../showcases.md
-msgid "RPi mouse"
+#: ../../getting_started.md
+msgid "Blockly"
 msgstr ""
 

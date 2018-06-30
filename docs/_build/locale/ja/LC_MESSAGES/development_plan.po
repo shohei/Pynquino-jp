@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pynquino \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 22:33+0900\n"
+"POT-Creation-Date: 2018-06-30 23:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../blockly.md
-msgid "Blockly Module"
-msgstr "Blocklyモジュール"
+#: ../../development_plan.md
+msgid "Development Plan"
+msgstr ""
 
-#: ../../blockly.md
-msgid "Video"
-msgstr "Video"
-
-#: ../../blockly.md
-msgid "G-code"
-msgstr "G-code"
-
-#: ../../blockly.md
-msgid "UI"
-msgstr "UI"
+#: ../../development_plan.md
+msgid "Arduino-Pynquino compiler"
+msgstr ""
 

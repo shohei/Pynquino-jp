@@ -165,7 +165,7 @@ source_parsers = {
 }
 source_suffix = ['.rst', '.md']
 
-locale_dirs = ['locale/']   # path is example but recommended.
+locale_dirs = ['_build/locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 

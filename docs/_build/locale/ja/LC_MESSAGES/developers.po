@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pynquino \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 22:33+0900\n"
+"POT-Creation-Date: 2018-06-30 23:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,37 +19,37 @@ msgstr ""
 
 #: ../../developers.md
 msgid "Developers Guide"
-msgstr "Developers Guide"
+msgstr ""
 
 #: ../../developers.md
 msgid "Port Arduino to PYNQ-MicroBlaze"
-msgstr "PYNQ-MicroBlazeのアップデート"
+msgstr ""
 
 #: ../../developers.md
 msgid "How to update board support package (BSP)"
-msgstr "BSPのアップデート"
+msgstr ""
 
 #: ../../developers.md
 msgid "How to update FPGA bitstream"
-msgstr "FPGAビットストリームのアップデート"
+msgstr ""
 
 #: ../../developers.md
 msgid "How to update PYNQ libraries"
-msgstr "PYNQライブラリのアップデート"
+msgstr ""
 
 #: ../../developers.md
 msgid "How to add pynquino library"
-msgstr "pynquinoライブラリの追加方法"
+msgstr ""
 
 #: ../../developers.md
 msgid "Create your own Blockly module"
-msgstr "Blocklyモジュールの作成方法"
+msgstr ""
 
 #: ../../developers.md
 msgid "How to use Blockly factory"
-msgstr "Blocklyファクトリの使い方"
+msgstr ""
 
 #: ../../developers.md
 msgid "How to define your own Blockly module behavior"
-msgstr "Blocilyモジュールの定義方法"
+msgstr ""
 
