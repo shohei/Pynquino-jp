@@ -18,28 +18,29 @@ Pynquino
   development_plan
 
 
-Introduction
+Pynquinoプロジェクトとは
 =====================
 
 ---------------------
-Beyond PYNQ
+課題：PYNQとArduinoの統合
 ---------------------
+本プロジェクトはPYNQプロジェクトでみられた以下の課題の解決に着目する。
 
-1) PYNQ project integrated Linux operating system over Processing System(PS), MicroBlaze micro controller for real time control, and fast computation over FPGA fabric (PL)
-2) PYNQ does not provide Arduino integration as software, therefore, Arduino firmware needs to be converted to fit on MicroBlaze
-3) PYNQ enables users to develop with Python and Jupyter notebook ,however, it is still challenge for non-programmers to customize the python code
-
----------------------
-Project objective
----------------------
-Pynquino projects aims to provide following softwares for reinforcing Arduino integration with PYNQ and easy development for non-programmer.
-
-1) Pynquino compiler for porting Arduino code to PYNQ-Microblaze automatically
-2) Blockly editor as wrapper environment of Jupyter notebook 
+1) PYNQプロジェクトはARMプロセッサ上のLinux OS、MicroBlazeマイクロコントローラ上のベアメタルアプリケーション、FPGAファブリック上のハードウェアアクセラレータを統合的にPythonで開発できる
+2) 一方でPYNQ-MicroBlazeはArduino APIに対応しておらず、OSとの通信にコードを書き換える必要があるため、Arduinoプロジェクトのソースコードをそのまま使うことはできない
+3) Jupyter notebookでの開発は敷居を下げたが、ソフトウェアエンジニアでないユーザがPythonを使いこなすのは依然として困難が伴う
 
 ---------------------
-Application
+目標：本プロジェクトが提供するもの
 ---------------------
-1) Integrate different types of robot and sensors 
-2) Accelerate computer vision and machine learning 
+PynquinoプロジェクトはArduinoとPYNQの統合および開発の効率を上げるために以下のソフトウェアを開発する。
+
+1) Pynquinoコンパイラ: ArduinoのソースコードをPYNQ-Microblazeにポーティングする
+2) Blocklyエディタ: Jupyter notebookのラッパーとしてのビジュアルプログラミング環境
+
+---------------------
+アプリケーション
+---------------------
+1) 異種のロボットおよびセンサを統合する
+2) 画像処理及び機械学習計算のアクセラレーション
 
