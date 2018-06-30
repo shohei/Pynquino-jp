@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pynquino \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-30 22:51+0900\n"
+"POT-Creation-Date: 2018-06-30 23:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,62 +19,65 @@ msgstr ""
 
 #: ../../index.rst:8
 msgid "Pynquino"
-msgstr ""
+msgstr "Pynquino"
 
 #: ../../index.rst:22
 msgid "Introduction"
-msgstr ""
+msgstr "イントロダクション"
 
 #: ../../index.rst:26
-msgid "Synoposis"
-msgstr ""
+msgid "Beyond PYNQ"
+msgstr "PYNQを拡張する"
 
 #: ../../index.rst:28
 msgid ""
-"PYNQ project integrated Linux operating system, micro controller for real"
-" time control, and fast computation for FPGA"
+"PYNQ project integrated Linux operating system over Processing "
+"System(PS), MicroBlaze micro controller for real time control, and fast "
+"computation over FPGA fabric (PL)"
 msgstr ""
 
 #: ../../index.rst:29
-msgid "PYNQ does not provide Arduino integration in terms of Software"
+msgid ""
+"PYNQ does not provide Arduino integration as software, therefore, Arduino"
+" firmware needs to be converted to fit on MicroBlaze"
 msgstr ""
 
 #: ../../index.rst:30
 msgid ""
-"PYNQ enables users to develop with Python and Jupyter notebook , however,"
-" still a challenge for non-programmer to customize the code"
+"PYNQ enables users to develop with Python and Jupyter notebook ,however, "
+"it is still challenge for non-programmers to customize the python code"
 msgstr ""
 
 #: ../../index.rst:34
-msgid "Objective"
+msgid "Project objective"
 msgstr ""
 
 #: ../../index.rst:35
-msgid "Integrate different types of robot and sensors"
+msgid ""
+"Pynquino projects aims to provide following softwares for reinforcing "
+"Arduino integration with PYNQ and easy development for non-programmer."
 msgstr ""
 
-#: ../../index.rst:36
-msgid "Accelerate computer vision and machine learning"
+#: ../../index.rst:37
+msgid ""
+"Pynquino compiler for porting Arduino code to PYNQ-Microblaze "
+"automatically"
 msgstr ""
 
-#: ../../index.rst:40
-msgid "Content"
+#: ../../index.rst:38
+msgid "Blockly editor as wrapper environment of Jupyter notebook"
 msgstr ""
 
-#: ../../index.rst:41
-msgid "Pynquino projects provides following softwares:"
+#: ../../index.rst:42
+msgid "Application"
 msgstr ""
 
 #: ../../index.rst:43
-msgid ""
-"Pynquino compiler for porting Arduino code to PYNQ-Microblaze "
-"automatically."
+msgid "Integrate different types of robot and sensors"
 msgstr ""
 
 #: ../../index.rst:44
-msgid ""
-"Blockly editor as wrapper environment of Jupyter notebook for easy "
-"programming."
+msgid "Accelerate computer vision and machine learning"
 msgstr ""
 
 #~ msgid "Pynquinoの主旨："
@@ -87,21 +90,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "PYNQはJupyterで開発できるが、もっと簡単にすることで、現場のエンジニア(e.g. "
-#~ "三菱)がアプリケーションのプロトタイピングをしやすくできる余地がある（問題２）"
 #~ msgstr ""
 
 #~ msgid "異種のロボット。センサを統合してプログラムしたい"
 #~ msgstr ""
 
 #~ msgid "画像処理と機械学習を高速化したい"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "以上を解決するために、以下のソフトウェアをつくる * 1. ArduinoコードをPynq-"
-#~ "Microblazeに変換するためのPynquinoコンパイラ. それに必要なboard support "
-#~ "package(BSP). * 2. "
-#~ "BlocklyエディタとBlocklyエディタを開発しやすくするための環境."
 #~ msgstr ""
 
 #~ msgid "現状では1の見通しが立っていて、2の実装ができている。"
@@ -120,5 +114,44 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "foo"
+#~ msgstr ""
+
+#~ msgid "Synoposis"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PYNQ project integrated Linux operating "
+#~ "system, micro controller for real time"
+#~ " control, and fast computation for "
+#~ "FPGA"
+#~ msgstr ""
+
+#~ msgid "PYNQ does not provide Arduino integration in terms of Software"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PYNQ enables users to develop with "
+#~ "Python and Jupyter notebook , however,"
+#~ " still a challenge for non-programmer"
+#~ " to customize the code"
+#~ msgstr ""
+
+#~ msgid "Objective"
+#~ msgstr ""
+
+#~ msgid "Content"
+#~ msgstr ""
+
+#~ msgid "Pynquino projects provides following softwares:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Pynquino compiler for porting Arduino "
+#~ "code to PYNQ-Microblaze automatically."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Blockly editor as wrapper environment of"
+#~ " Jupyter notebook for easy programming."
 #~ msgstr ""
 
