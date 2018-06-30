@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Pynquino &mdash; Pynquino  documentation</title>
+  <title>Pynquinoプロジェクトとは &mdash; Pynquino  documentation</title>
   
 
   
@@ -112,7 +112,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="#">Docs</a> &raquo;</li>
       
-    <li>Pynquino</li>
+    <li>Pynquinoプロジェクトとは</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -127,34 +127,32 @@
            <div itemprop="articleBody">
             
   <div class="section" id="pynquino">
-<h1>Pynquino<a class="headerlink" href="#pynquino" title="Permalink to this headline">¶</a></h1>
+<h1>Pynquinoプロジェクトとは<a class="headerlink" href="#pynquino" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="beyond-pynq">
-<h3>Beyond PYNQ<a class="headerlink" href="#beyond-pynq" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="pynqarduino">
+<h2>課題：PYNQとArduinoの統合<a class="headerlink" href="#pynqarduino" title="Permalink to this headline">¶</a></h2>
+<p>本プロジェクトはPYNQプロジェクトでみられた以下の課題の解決に着目する。</p>
 <ol class="arabic simple">
-<li>PYNQ project integrated Linux operating system over Processing System(PS), MicroBlaze micro controller for real time control, and fast computation over FPGA fabric (PL)</li>
-<li>PYNQ does not provide Arduino integration as software, therefore, Arduino firmware needs to be converted to fit on MicroBlaze</li>
-<li>PYNQ enables users to develop with Python and Jupyter notebook ,however, it is still challenge for non-programmers to customize the python code</li>
+<li>PYNQプロジェクトはARMプロセッサ上のLinux OS、MicroBlazeマイクロコントローラ上のベアメタルアプリケーション、FPGAファブリック上のハードウェアアクセラレータを統合的にPythonで開発できる</li>
+<li>一方でPYNQ-MicroBlazeはArduino APIに対応しておらず、OSとの通信にコードを書き換える必要があるため、Arduinoプロジェクトのソースコードをそのまま使うことはできない</li>
+<li>Jupyter notebookでの開発は敷居を下げたが、ソフトウェアエンジニアでないユーザがPythonを使いこなすのは依然として困難が伴う</li>
 </ol>
 </div>
-<div class="section" id="project-objective">
-<h3>Project objective<a class="headerlink" href="#project-objective" title="Permalink to this headline">¶</a></h3>
-<p>Pynquino projects aims to provide following softwares for reinforcing Arduino integration with PYNQ and easy development for non-programmer.</p>
+<div class="section" id="id1">
+<h2>目標：本プロジェクトが提供するもの<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>PynquinoプロジェクトはArduinoとPYNQの統合および開発の効率を上げるために以下のソフトウェアを開発する。</p>
 <ol class="arabic simple">
-<li>Pynquino compiler for porting Arduino code to PYNQ-Microblaze automatically</li>
-<li>Blockly editor as wrapper environment of Jupyter notebook</li>
+<li>Pynquinoコンパイラ: ArduinoのソースコードをPYNQ-Microblazeにポーティングする</li>
+<li>Blocklyエディタ: Jupyter notebookのラッパーとしてのビジュアルプログラミング環境</li>
 </ol>
 </div>
-<div class="section" id="application">
-<h3>Application<a class="headerlink" href="#application" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id2">
+<h2>アプリケーション<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Integrate different types of robot and sensors</li>
-<li>Accelerate computer vision and machine learning</li>
+<li>異種のロボットおよびセンサを統合する</li>
+<li>画像処理及び機械学習計算のアクセラレーション</li>
 </ol>
-</div>
 </div>
 </div>
 

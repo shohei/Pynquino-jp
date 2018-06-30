@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 =====================
-Pynquino
+Pynquinoプロジェクトとは
 =====================
 
 
@@ -17,9 +17,6 @@ Pynquino
   showcases
   development_plan
 
-
-Pynquinoプロジェクトとは
-=====================
 
 ---------------------
 課題：PYNQとArduinoの統合
