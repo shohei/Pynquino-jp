@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Pynquinoプロジェクトとは &mdash; Pynquino  documentation</title>
+  <title>Pynquinoとは &mdash; Pynquino  documentation</title>
   
 
   
@@ -30,8 +30,7 @@
   
 
   
-    <link rel="top" title="Pynquino  documentation" href="#"/>
-        <link rel="next" title="Getting Started" href="getting_started.html"/> 
+    <link rel="top" title="Pynquino  documentation" href="#"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -76,14 +75,15 @@
           
             
             
-                <ul>
-<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blockly.html">Blockly Module</a></li>
-<li class="toctree-l1"><a class="reference internal" href="developers.html">Developers Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="showcases.html">Showcases</a></li>
-<li class="toctree-l1"><a class="reference internal" href="development_plan.html">Development Plan</a></li>
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Pynquinoとは</a><ul>
+<li><a class="reference internal" href="#pynqarduino">PYNQとArduinoのスムーズな連携</a></li>
+<li><a class="reference internal" href="#id1">デモプロジェクト</a></li>
 </ul>
-
+</li>
+</ul>
+</div>
             
           
         </div>
@@ -112,7 +112,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="#">Docs</a> &raquo;</li>
       
-    <li>Pynquinoプロジェクトとは</li>
+    <li>Pynquinoとは</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -127,32 +127,26 @@
            <div itemprop="articleBody">
             
   <div class="section" id="pynquino">
-<h1>Pynquinoプロジェクトとは<a class="headerlink" href="#pynquino" title="Permalink to this headline">¶</a></h1>
+<h1>Pynquinoとは<a class="headerlink" href="#pynquino" title="Permalink to this headline">¶</a></h1>
+<p>Pynquino= <strong>PYNQ</strong> +Ard <strong>uino</strong></p>
+<p>ArduinoをXilinxのFPGA(PYNQ)と連携させるプロジェクトです。</p>
 <div class="toctree-wrapper compound">
 </div>
 <div class="section" id="pynqarduino">
-<h2>PYNQとArduinoの統合<a class="headerlink" href="#pynqarduino" title="Permalink to this headline">¶</a></h2>
-<p>本プロジェクトはPYNQプロジェクトでみられた以下の課題の解決に着目する。</p>
-<ol class="arabic simple">
-<li>PYNQプロジェクトはARMプロセッサ上のLinux OS、MicroBlazeマイクロコントローラ上のベアメタルアプリケーション、FPGAファブリック上のハードウェアアクセラレータを統合的にJupyter notebookで開発できる</li>
-<li>一方でPYNQ-MicroBlazeはArduino APIに対応しておらず、OSとの通信にコードを書き換える必要があるため、Arduinoプロジェクトのソースコードをそのまま使うことはできない</li>
-<li>Jupyter notebookでの開発は敷居を下げたが、ソフトウェアエンジニアでないユーザがPythonを使いこなすのは依然として困難が伴う</li>
-</ol>
+<h2>PYNQとArduinoのスムーズな連携<a class="headerlink" href="#pynqarduino" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/pynq-z1.jpg"><img alt="_images/pynq-z1.jpg" class="align-left" src="_images/pynq-z1.jpg" style="width: 80.0px; height: 40.0px;" /></a>
+<p>Xilinxの <a class="reference external" href="http://www.pynq.io/">PYNQプラットフォーム</a> では、Pythonを用いてFPGAのアプリケーションを開発できるため、ソフトウェアエンジニアもFPGAを用いた機械学習や画像処理などのアプリケーション開発に取り組むことができます。</p>
+<p>PYNQの基板にはArduinoシールドが装着できるようになっていますが、Arduinoスケッチをそのまま実行することはできません。PYNQで使用しているソフトプロセッサ（MicroBlaze）向けに変更する必要があります。</p>
+<p>Pynquinoプロジェクトでは、ArduinoスケッチをPYNQ上で実行可能にすることで、ロボティクスなどのよりリアルタイム処理が必要なアプリケーションの開発に役立ててもらうことを目指しています。</p>
 </div>
 <div class="section" id="id1">
-<h2>本プロジェクトが提供するもの<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>PynquinoプロジェクトはArduinoとPYNQの統合および開発の効率を上げるために以下のソフトウェアを開発する。</p>
-<ol class="arabic simple">
-<li>Pynquinoコンパイラ: ArduinoのソースコードをPYNQ-Microblazeにポーティングする</li>
-<li>Blocklyエディタ: Jupyter notebookのラッパーとしてのビジュアルプログラミング環境</li>
-</ol>
-</div>
-<div class="section" id="id2">
-<h2>アプリケーション<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<ol class="arabic simple">
-<li>異種のロボットおよびセンサを統合する</li>
-<li>画像処理及び機械学習計算のアクセラレーション</li>
-</ol>
+<h2>デモプロジェクト<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>現在、RepRapベースの3Dプリンタに画像処理機能を追加するためのデモプロジェクトを開発しています。</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/shohei/zsprinter-pynquino">ファームウェア</a></li>
+<li><a class="reference external" href="https://github.com/shohei/3dp-shield-rev3">シールド基板</a></li>
+</ul>
+<p>詳細については本サイトにて追記する予定です。</p>
 </div>
 </div>
 
@@ -160,13 +154,6 @@
            </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="getting_started.html" class="btn btn-neutral float-right" title="Getting Started" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-    </div>
   
 
   <hr/>

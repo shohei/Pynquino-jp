@@ -4,40 +4,45 @@
    contain the root `toctree` directive.
 
 =====================
-Pynquinoプロジェクトとは
+Pynquinoとは
 =====================
+Pynquino= **PYNQ** +Ard **uino** 
 
+ArduinoをXilinxのFPGA(PYNQ)と連携させるプロジェクトです。
 
 .. toctree::
   :hidden:
 
-  getting_started
-  blockly
-  developers
-  showcases
-  development_plan
+  .. getting_started
+  .. blockly
+  .. developers
+  .. showcases
+  .. development_plan
 
 
 ---------------------
-PYNQとArduinoの統合
+PYNQとArduinoのスムーズな連携
 ---------------------
-本プロジェクトはPYNQプロジェクトでみられた以下の課題の解決に着目する。
 
-1) PYNQプロジェクトはARMプロセッサ上のLinux OS、MicroBlazeマイクロコントローラ上のベアメタルアプリケーション、FPGAファブリック上のハードウェアアクセラレータを統合的にJupyter notebookで開発できる
-2) 一方でPYNQ-MicroBlazeはArduino APIに対応しておらず、OSとの通信にコードを書き換える必要があるため、Arduinoプロジェクトのソースコードをそのまま使うことはできない
-3) Jupyter notebookでの開発は敷居を下げたが、ソフトウェアエンジニアでないユーザがPythonを使いこなすのは依然として困難が伴う
+.. image:: ./img/pynq-z1.jpg
+   :scale: 40%
+   :height: 100px
+   :width: 200px
+   :align: left
+Xilinxの `PYNQプラットフォーム <http://www.pynq.io/>`_ では、Pythonを用いてFPGAのアプリケーションを開発できるため、ソフトウェアエンジニアもFPGAを用いた機械学習や画像処理などのアプリケーション開発に取り組むことができます。
+
+
+PYNQの基板にはArduinoシールドが装着できるようになっていますが、Arduinoスケッチをそのまま実行することはできません。PYNQで使用しているソフトプロセッサ（MicroBlaze）向けに変更する必要があります。
+
+Pynquinoプロジェクトでは、ArduinoスケッチをPYNQ上で実行可能にすることで、ロボティクスなどのよりリアルタイム処理が必要なアプリケーションの開発に役立ててもらうことを目指しています。
 
 ---------------------
-本プロジェクトが提供するもの
+デモプロジェクト
 ---------------------
-PynquinoプロジェクトはArduinoとPYNQの統合および開発の効率を上げるために以下のソフトウェアを開発する。
+現在、RepRapベースの3Dプリンタに画像処理機能を追加するためのデモプロジェクトを開発しています。
 
-1) Pynquinoコンパイラ: ArduinoのソースコードをPYNQ-Microblazeにポーティングする
-2) Blocklyエディタ: Jupyter notebookのラッパーとしてのビジュアルプログラミング環境
+* `ファームウェア <https://github.com/shohei/zsprinter-pynquino>`_
+* `シールド基板 <https://github.com/shohei/3dp-shield-rev3>`_
 
----------------------
-アプリケーション
----------------------
-1) 異種のロボットおよびセンサを統合する
-2) 画像処理及び機械学習計算のアクセラレーション
+詳細については本サイトにて追記する予定です。
 
