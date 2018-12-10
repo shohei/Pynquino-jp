@@ -26,7 +26,7 @@ PYNQとArduinoのスムーズな連携
 
 .. image:: ./img/pynq-z1.jpg
    :scale: 40%
-   :height: 100px
+   :height: 200px
    :width: 200px
    :align: left
 Xilinxの `PYNQプラットフォーム <http://www.pynq.io/>`_ では、Pythonを用いてFPGAのアプリケーションを開発できるため、ソフトウェアエンジニアもFPGAを用いた機械学習や画像処理などのアプリケーション開発に取り組むことができます。
